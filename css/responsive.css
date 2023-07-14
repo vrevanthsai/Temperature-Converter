@@ -1,0 +1,65 @@
+/* css for small devices */
+@media only screen and (max-width:1200px){
+    #About{
+        font-size: 16px;
+    }
+    #Home .result {
+        padding-top: 18px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:700px){
+    #Home h1{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:560px){
+    #Home .box{
+        width: 150px;
+        font-size: 12px;
+    }
+    #Home .mid li {
+        padding: 18px 10px;
+    }
+    #Home .mid li a {
+        font-size: 18px;
+    }
+    #Home .logo img {
+        width: 50px;
+    }
+    #About .content ul {
+        margin-left: 27px;
+        margin-top: 25px;
+    }
+    #About .formulas ol li {
+        margin: 0px;
+    }
+}
+@media only screen and (max-width:430px){
+    #Home .symbol{
+        padding: 30px 2px;
+        font-size: 20px;
+    }
+    #Home .container{
+        padding-top: 50px;
+    }
+    #Home .box {
+        width: 128px;
+        font-size: 10px;
+    }
+    #Home .result {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    #About {
+        font-size: 13px;
+    }
+    #About h2{
+        font-size: 25px;
+    }
+    #Contact .frm {
+        margin: 0px 10px;
+        margin-top: 12px;
+    }
+}

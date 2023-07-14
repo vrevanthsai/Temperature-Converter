@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/About.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Background Image -->
+    <div class="bg">
+        <img src="bg.jpg" alt="Background">
+    </div>
+    <!-- Home page -->
+    <!-- Navbar -->
+    <div id="Home">
+        <nav class="top">
+            <div class="logo">
+                <img src="logo.jpg" alt="logo">
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">ContactUs</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Heading -->
+        <h1>Temperature Converter</h1>
+        <!-- Temperature converter -->
+        <div class="container">
+            <form action="#">
+                <div class="row">
+                    <span class="first-col">
+                        <input type="number" id="a" class="box" placeholder="Enter a degree value" required />
+                        <select id="choose1" class="box">
+                            <option>Choose a Type</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                            <option value="Celcius">Celcius</option>
+                            <option value="Kelvin">Kelvin</option>
+                        </select>
+                    </span>
+                    <label for="choose2" class="symbol"><span class="con">Convert</span><span>To</span> </label>
+                    <span class="sec-col">
+                        <input type="text" id="c" class="box" value="" placeholder="Result" disabled />
+                        <select id="choose2" class="box">
+                            <option>Choose a Type</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                            <option value="Celcius">Celcius</option>
+                            <option value="Kelvin">Kelvin</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="button">
+                    <input type="button" class="btn" value="Convert" onclick="convert()">
+                    <input type="reset" class="btn" value="Reset" onclick="reset1()">
+                </div>
+            </form>
+            <!-- Final Result -->
+            <div class="result"><span class="fr">Final Result:</span>Temperature of <span id="value1">0</span>&deg;<span
+                    id="value2"></span>is converted to <span id="value3">0</span>&deg;<span id="value4"></span></div>
+        </div>
+    </div>
+    <!-- About page -->
+    <div id="About">
+        <h2>About This Website</h2>
+        <div class="content">
+            <ul>
+                <li>
+                    <p>This website is created for easy calculations on <Strong>Temperature Conversion</Strong></p>
+                </li>
+                <li>
+                    <p>Temperature conversion is the process of changing the value of temperature from one unit to
+                        another.
+                        Learn about the temperature conversion formulas as you scroll down. We measure temperature on
+                        scales
+                        like Kelvin, Celsius, and Fahrenheit, etc.</p>
+                </li>
+                <li>
+                    Formulas for temperature conversions:
+                </li>
+                <li>
+                    <p>Temperature conversion formulas are defined as the conversion formulas for changing the value of
+                        temperature from one unit to another. They are various distinct temperature conversion methods.
+                        Different units can be used to record the temperature. The three different units used for
+                        measuring
+                        temperature are Celsius (°C) Fahrenheit (°F), and Kelvin (K). Kelvin is the SI unit of measuring
+                        temperature, whereas Fahrenheit and Celsius are commonly used scales.
+                        Kelvin, Celsius, and Fahrenheit are the most commonly used scales for temperature measurement.
+                        Here are
+                        the temperature conversion formulas:</p>
+                </li>
+            <li class="fls">
+            <div class="formulas">
+                <ol>
+                    <li>Celsius to Kelvin: K = C + 273.15</li>
+                    <li>Kelvin to Celcius: C = K - 273.15</li>
+                    <li>Fahrenheit to Celcius: C = (F-32) (5/9)</li>
+                    <li>Celsius to Fahrenheit: F = C(9/5) + 32</li>
+                    <li>Fahrenheit to Kelvin: K = (F-32) (5/9) + 273.15</li>
+                    <li>Kelvin to Fahrenheit: F = (K-273.15) (9/5) + 32</li>
+                </ol>
+            </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <!-- ContactUs page -->
+    <div id="Contact">
+        <h2>Contact Us</h2>
+        <form action="#" class="frm">
+            <input type="text" placeholder="Enter your Name" required/>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" required/>
+            <textarea name="message" id="msg" cols="30" rows="7" placeholder="Enter your message" required></textarea>
+            <input type="submit" value="Submit" class="sub">
+        </form>
+        <a href="#Home">&#9650;</a>
+        <footer>Copyright © Website developed by velicheti revanth sai</footer>
+    </div>
+    <script src="convertion.js"></script>
+</body>
+
+</html>

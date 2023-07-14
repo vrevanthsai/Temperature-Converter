@@ -1,0 +1,66 @@
+/* importing font-family style */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kablammo&family=Merriweather:wght@300&family=Roboto&family=Rubik+Puddles&family=Space+Grotesk:wght@500&family=Teko&family=Tilt+Prism&display=swap');
+#Contact{
+    height: 100vh;
+}
+#Contact h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    color: #000084;
+    font-family: 'Tilt Prism', cursive;
+}
+ 
+#Contact .frm{
+    display: flex;
+    flex-direction: column;
+    /* width: 450px; */
+    margin: auto;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.frm input{
+    padding: 13px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.frm #msg{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.frm .sub{
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border: none;
+}
+.frm .sub:hover{
+    background-color: orange;
+}
+/* css for footer */
+#Contact footer{
+    background-color: black;
+    padding: 18px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 98px;
+    color: aqua;
+}
+#Contact a{
+    padding: 10px;
+    /* width: 38px; */
+    cursor: pointer;
+    float: right;
+    background-color: black;
+    border-radius: 30px;
+    color: aqua;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 24px;
+}

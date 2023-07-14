@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* importing font-family style */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kablammo&family=Merriweather:wght@300&family=Roboto&family=Rubik+Puddles&family=Space+Grotesk:wght@500&family=Teko&family=Tilt+Prism&display=swap');
+/* Css for Home page */
+#Home{
+    height: 100vh;
+    width: 100%;
+}
+/* Background */
+.bg img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+/* Navbar */
+.top{
+    display: flex;
+}
+.mid .navbar{
+    display: flex;
+    list-style: none;
+    margin: 13px;
+}
+li a{
+    text-decoration: none;
+    font-size: 27px;
+    color: #09f;
+}
+li a:hover{
+    color: orange;
+}
+li .active{
+    color: orange;
+}
+.mid li{
+    padding: 18px 20px;
+}
+.logo img {
+    width: 67px;
+    margin: 12px;
+    border-radius: 50px;
+}
+/* heading */
+h1{
+    text-align: center;
+    font-size: 66px;
+    margin-top: 66px;
+    color: aqua;
+}
+/* Temperature converter*/
+.container {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 127px; */
+    padding-top: 95px;
+}
+.row{
+    display: flex;
+}
+.first-col {
+    display: inline-flex;
+    flex-direction: column;
+}
+.sec-col{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* css for each tag */
+#a{
+    margin-bottom: 12px;
+    padding: 12px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 208px;
+}
+#c{
+    margin-bottom: 12px;
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+    font-size: 21px;
+    width: 208px;
+}
+/* div.scrollbar{
+    overflow: auto;
+  white-space: nowrap;
+} */
+#choose1 {
+    width: 208px;
+    text-align: center;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: aqua;
+}
+.symbol {
+    padding: 30px 18px;
+    color: white;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.con{
+    color: aqua;
+}
+#choose2 {
+    width: 208px;
+    text-align: center;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+/* css for buttons */
+.button{
+    text-align: center;
+}
+.btn{
+    font-size: 18px;
+    margin: 21px 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+    color: orangered;
+}
+/* css for final result */
+.result{
+    color: whitesmoke;
+    padding-top: 40px;
+    font-size: 36px;
+    font-family: 'Teko', sans-serif;
+}
+.fr{
+    color: aqua;
+    font-size: 40px;
+    margin-right: 10px;
+}
+#value1{
+   color: #1399fc;
+}
+#value3{
+    color: red;
+}
