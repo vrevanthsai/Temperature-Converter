@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kablammo&family=Merriweather:wght@300&family=Roboto&family=Rubik+Puddles&family=Space+Grotesk:wght@500&family=Teko&family=Tilt+Prism&display=swap');
 /* Css for Home page */
 #Home{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 /* Background */
