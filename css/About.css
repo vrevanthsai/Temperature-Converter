@@ -4,7 +4,7 @@
 /* css for About page */
 #About{
     font-size: 22px;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Space Grotesk', sans-serif;
 }
 body{
